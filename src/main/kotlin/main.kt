@@ -2,7 +2,7 @@ fun main() {
     val a = commCalc(amount = 1000_00)
     val b = commCalc("Mastercard", 100, 1000_00)
     val c = commCalc("Maestro", 75001_00, 1000_00)
-    val d = commCalc(card = "Visa", amount = 1000_00)
+    val d = commCalc(card = "Visa", amount = 10000_00)
 
     message(a)
     message(b)
