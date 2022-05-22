@@ -49,7 +49,7 @@ class MainKtTest {
         val card = "Visa"
         val prevTrans = 0
         val amount = 1000_00
-        val expectedValue = 0
+        val expectedValue = 1
         //Act
         val actualValue = commCalc(card, prevTrans, amount)
         //Assert
