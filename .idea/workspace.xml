@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac4a9f2c-bc9e-48a8-8b71-722dfecee723" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="ac4a9f2c-bc9e-48a8-8b71-722dfecee723" name="Changes" comment="autotests / break">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/MainKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MainKtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +96,7 @@
       <command value="gradle test --info" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.HW4 [jacocoTestReport]">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="HW4 [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -197,10 +194,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HW4 [jacocoTestReport]" />
-        <item itemvalue="Gradle.HW4 [test]" />
-        <item itemvalue="Gradle.MainKtTest.commCalc_vkpay" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.HW4 [test]" />
+        <item itemvalue="Gradle.HW4 [jacocoTestReport]" />
+        <item itemvalue="Gradle.MainKtTest.commCalc_vkpay" />
         <item itemvalue="Gradle.MainKtTest (1)" />
       </list>
     </recent_temporary>
@@ -214,6 +211,14 @@
       <option name="presentableId" value="Default" />
       <updated>1653161713679</updated>
     </task>
+    <task id="LOCAL-00001" summary="autotests / break">
+      <created>1653224184239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653224184239</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,5 +231,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="autotests / break" />
+    <option name="LAST_COMMIT_MESSAGE" value="autotests / break" />
   </component>
 </project>

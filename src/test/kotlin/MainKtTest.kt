@@ -34,13 +34,13 @@ class MainKtTest {
     fun commCalc_maestro() {
         //Arrange
         val card = "Maestro"
-        val prevTrans = 0
+        val prevTrans = 75000_01
         val amount = 1000_00
         val expectedValue = 0
         //Act
         val actualValue = commCalc(card, prevTrans, amount)
         //Assert
-        assertEquals(expectedValue, actualValue)
+        assertNotEquals(expectedValue, actualValue)
     }
 
     @Test
@@ -48,25 +48,25 @@ class MainKtTest {
         //Arrange
         val card = "Visa"
         val prevTrans = 0
-        val amount = 1000_00
-        val expectedValue = 1
+        val amount = 10000_00
+        val expectedValue = 7600
         //Act
         val actualValue = commCalc(card, prevTrans, amount)
         //Assert
-        assertNotEquals(expectedValue, actualValue)
+        assertEquals(expectedValue, actualValue)
     }
 
     @Test
-    fun mir() {
+    fun commCalc_mir() {
         //Arrange
         val card = "Мир"
         val prevTrans = 0
         val amount = 1000_00
-        val expectedValue = 0
+        val expectedValue = 3500
         //Act
         val actualValue = commCalc(card, prevTrans, amount)
         //Assert
-        assertNotEquals(expectedValue, actualValue)
+        assertEquals(expectedValue, actualValue)
     }
 
     @Test
